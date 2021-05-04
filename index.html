@@ -1,74 +1,32 @@
 <html lang="pt-br">
-
-<head>
-    <meta charset="utf-8">
-    <title>Futebol 2021</title>
-    <link href="css/index.css" rel="stylesheet">
-</head>
-
-<body>
-    <header>
-        <nav id="menu">
-            <ul>
-                <li><a href="#sessao1">Item 1</a></li>
-                <li><a href="#sessao2">Item 2</a></li>
-                <li><a href="#sessao3">Item 3</a></li>
-                <li><a href="#sessao4">Item 4</a></li>
-                <li><a href="cadastro.html">cadastro</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="sessao1">
-            <h1>Setor 01</h1>
+    <head>        
+        <meta charset="utf-8">
+        <title>Aula 07</title>
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script> 
+    </head>
+    <body>
+       <div>
+            <h2>Inclua um novo usuário</h2>            
+            <h4>Nome:</h4>
+            <input id='input_nome' placeholder="Digite o seu nome">            
+            <h4>CPF:</h4>
+            <input id='input_cpf' placeholder="Digite seu CPF">        
+            <h4>Cargo:</h4>
+            <input id='input_cargo' placeholder="Digite o seu Cargo">
             <br>
-            <p>Lorem ipsum euismod sodales in tempus himenaeos ac fusce proin aptent consectetur sollicitudin sapien,
-                aliquet purus
-                semper eu venenatis elit senectus bibendum vitae consectetur venenatis. tempus curae imperdiet hac erat
-                metus litora
-                scelerisque neque feugiat, iaculis molestie arcu taciti diam nisl dui vehicula auctor, fermentum iaculis
-                hendrerit
-                commodo faucibus tincidunt pretium egestas.
-            </p>
+            <button id='bt_cadastrar'>Cadastrar</button>
+       </div>
 
-            <section id="sessao2">
-                <h1>Setor 2</h1>
-                <br>
-                <p>Lorem ipsum euismod sodales in tempus himenaeos ac fusce proin aptent consectetur sollicitudin
-                    sapien, aliquet purus
-                    semper eu venenatis elit senectus bibendum vitae consectetur venenatis. tempus curae imperdiet hac
-                    erat metus litora
-                    scelerisque neque feugiat, iaculis molestie arcu taciti diam nisl dui vehicula auctor, fermentum
-                    iaculis hendrerit
-                    commodo faucibus tincidunt pretium egestas.
-                </p>
-            </section>
-            <section id="sessao3">
-                <h1>Setor 3</h1>
-                <br>
-                <p>Lorem ipsum euismod sodales in tempus himenaeos ac fusce proin aptent consectetur sollicitudin
-                    sapien, aliquet purus
-                    semper eu venenatis elit senectus bibendum vitae consectetur venenatis. tempus curae imperdiet hac
-                    erat metus litora
-                    scelerisque neque feugiat, iaculis molestie arcu taciti diam nisl dui vehicula auctor, fermentum
-                    iaculis hendrerit
-                    commodo faucibus tincidunt pretium egestas.
-                </p>
-            </section>
-            <section id="sessao4"></section>
-            <h1>Setor 4</h1>
-            <br>
-            <p>Lorem ipsum euismod sodales in tempus himenaeos ac fusce proin aptent consectetur sollicitudin sapien,
-                aliquet purus
-                semper eu venenatis elit senectus bibendum vitae consectetur venenatis. tempus curae imperdiet hac erat
-                metus litora
-                scelerisque neque feugiat, iaculis molestie arcu taciti diam nisl dui vehicula auctor, fermentum iaculis
-                hendrerit
-                commodo faucibus tincidunt pretium egestas.
-            </p>
-        </section>
-        </section>
-    </main>
-</body>
+        <table id='tabela_user'>
+            <tr> 
+                <th>#</th>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>Cargo</th>
+            </tr>          
+        </table>
 
+        <script src="js/index.js"></script>        
+    </body>    
 </html>
